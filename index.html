@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather App</h1>
+        </div>
+        <div class="searchBox">
+            <form action="" class="form">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>                  
+                </button>
+                <input class="txtSearch" type="text" name="" placeholder="Search for a city" id="">
+            </form>
+        </div>
+       <div class="weather-con">
+            <div class="weather">
+                <div class="f">
+                    <div class="date-week">
+                        <h1 class="weekday"></h1>
+                        <p class="date"></p>
+                    </div>
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                        <p class="city"></p>
+                    </div>
+                </div>
+                <div class="s">
+                    <div class="icon">
+
+                    </div>
+                    <div class="temperture">
+                        <h1></h1>
+                    </div>
+                    <div class="weather-staus">
+                        <h2></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="row">
+                    <h4>Temperture (max) :</h4>
+                    <p class="t-max">0%</p>
+                </div>
+                <div class="row">
+                    <h4>Temperture (min) :</h4>
+                    <p class="t-min">0%</p>
+                </div>
+                <div class="row">
+                    <h4>Humidity :</h4>
+                    <p class="humidity">0%</p>
+                </div>
+                <div class="row">
+                    <h4>Wind (speed):</h4>
+                    <p class="wind-speed">0%</p>
+                </div>
+                <div class="row">
+                    <h4>Wind (deg):</h4>
+                    <p class="wind-deg">0%</p>
+                </div>
+                <div class="row">
+                    <h4>Pressure :</h4>
+                    <p class="pressure">0%</p>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
